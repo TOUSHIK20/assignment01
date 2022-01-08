@@ -1,0 +1,96 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.first-section{
+    display:flex;
+    padding-left: 10%;
+
+}
+
+.flexible-column, .third-section, .fourth-section{
+display: flex;
+padding-left: 5%;
+padding-right: 5%;
+justify-content: space-around;
+}
+
+
+
+.half{
+    width: 50%;
+}
+
+.half1, .half4{
+    width: 30%;
+    padding-right: 30px;
+}
+
+
+
+.half2, .half3{
+    width: 60%;
+}
+
+.half1 img, .half4 img{
+    width: 100%;
+}
+
+
+
+
+
+.half img{
+    width: 60%;
+}
+
+#big-text{
+    font-size: 80px;
+    border-left: 5px, solid;
+    border-color: orangered;
+}
+
+.orange-color{
+    color:orange;
+}
+
+.button{
+    padding: 15px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+.box img{
+width: 50%;
+}
+
+.second-section{
+    margin-bottom: 20px;
+}
+
+.third-section, .fourth-section{
+    margin-top: 70px;
+}
+
+.box{
+    width:20%;
+    text-align: left;
+    padding:2%;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+
+.footer{
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
